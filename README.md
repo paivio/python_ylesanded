@@ -1,2 +1,2 @@
-# arvestust-d
+# python_ylesanded
 programmeerimise arvestustööd
