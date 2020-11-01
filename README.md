@@ -1,2 +1,2 @@
 # python_ylesanded
-programmeerimise arvestustööd
+arvestustööd, suuremad ülesanded, projektid
