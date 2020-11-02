@@ -20,6 +20,7 @@ fail = open(failinimi, encoding="UTF-8")
 pikkused = []
 for i in fail:
     pikkused.append(float(i.strip("\n")))
+fail.close()
 
 summa = 0
 j = 0
