@@ -25,6 +25,7 @@ neto_järjend = []
 
 for i in fail:
     neto_järjend.append(float(i.strip("\n")))
+fail.close()
     
 summa = 0
 j = 0
