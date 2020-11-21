@@ -41,8 +41,8 @@ while m < 10:
     m += 1
 
 # Kuvame punktide kogusumma:
-tulemus = "Hea mäng " + nimi + "! Punkte kokku " + str(punkte_kokku) + "." + "\n"
-msgbox(tulemus)
+msgbox("Hea mäng " + nimi + "! Punkte kokku " + str(punkte_kokku) + ".")
+tulemus = "Mängija " + nimi + " punktide arv selles viktoriinis oli " + str(punkte_kokku) + "/10."
     
 # Kirjutame mängu tulemused faili (kõikide mängijate tulemused üksteise all):
 tulemused_fail = open("tulemused.txt", "a")
