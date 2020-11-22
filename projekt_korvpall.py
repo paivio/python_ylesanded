@@ -4,7 +4,7 @@ from easygui import *
 # Küsime mängija nime ja tutvustame reegleid:
 nimi = enterbox('Tere tulemast viktoriinile "Põlvamaa korvpall". \nViktoriini alustamiseks palun sisesta oma nimi ja vajuta nuppu "OK".')
 
-# Loeme küsimused_vastused failist järjendisse:
+# Loeme küsimused-vastused failist järjendisse:
 kysimus_fail = open("kysimus.txt", encoding="UTF-8")
 vastus_fail = open("vastus.txt", encoding="UTF-8")
 
@@ -18,7 +18,7 @@ for j in vastus_fail:
     vastused.append(j.strip("\n"))
 vastus_fail.close()
 
-# Kuvame küsimused, kontrollime vastuse õigsust, kvame punktid küsimuse kohta ja arvutame punktide kogusumma:
+# Kuvame küsimused, kontrollime vastuse õigsust, kuvame punktid küsimuse kohta ja arvutame punktide kogusumma:
 m = 0
 punkte_kokku = 0
 while m < 10:
